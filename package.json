@@ -1,0 +1,26 @@
+{
+  "name": "graphql-do-zero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leandl/graphql-do-zero.git",
+  "author": "leandl <leandrocrispim891@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "class-validator": "^0.13.2",
+    "graphql": "=15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "resolutions": {
+    "graphql": "=15.3.0"
+  }
+}
